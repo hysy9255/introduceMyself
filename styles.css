@@ -1,0 +1,119 @@
+body {
+    margin: 0px;
+}
+
+.main_banner {
+    width: 100%;
+    height: 500px;
+    background-image: url('https://images.unsplash.com/photo-1531219572328-a0171b4448a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-position: bottom;
+    background-size: cover;
+}
+
+.main_banner h1 {
+    text-align: center;
+}
+
+
+.intro_box {
+    padding: 20px;
+    display: flex;
+    background-color: sandybrown;
+    border: 10px solid greenyellow;
+}
+
+#mypic {
+    width: 150px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid blue;
+}
+
+.intro_box p {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: larger;
+}
+
+
+#title_bar {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+#title_content {
+    color:white; 
+    font-size:20px; 
+    top:5px; 
+    margin-left:20px; 
+    position:relative;
+}
+
+
+#container_1_content {
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-image: 
+    linear-gradient(to right, rgba(10, 5, 5, 0.917), rgba(31, 26, 26, 0.117)), 
+    url('antonio_conte.jpg');
+    /* position:absolute; */
+}
+
+
+#banner1 {
+    width:130px;
+    height:200px;
+    left:100px;
+    position:relative;
+}
+
+
+div h1 {
+    font-family:Arial, Helvetica, sans-serif; 
+    color: white;
+    font-size: 60px;
+    text-align: left;
+    left: 400px;
+    top: 150px;
+    position: relative;
+} 
+
+
+#interest_content p {
+    color:white; 
+    left:900px; 
+    bottom:350px; 
+    position:relative;
+}
+
+
+
+#container_2_content {
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-image: 
+    linear-gradient(to bottom, rgba(10, 5, 5, 0.917), rgba(31, 26, 26, 0.117)), 
+    url('tian_mimi.jpg');
+}
+
+
+#banner2 {
+    width:150px;
+    height:150px;
+    left:150px;
+    top: 30px;
+    position:relative;
+}
+
+
+
+
+
+
+
+
+
